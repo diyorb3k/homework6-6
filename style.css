@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Rubikbold;
+  src: url(./fonts/Rubik-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.car1 {
+  padding-left: 15px;
+  background-color: #fff;
+}
+.card {
+  /* background-color: #fff; */
+  width: 100%;
+  padding-left: 8px;
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* padding: 8px 8px 8px 8px; */
+}
+h1 {
+  width: 256px;
+  padding-top: 8px;
+  border: 1px solid #70c05b;
+  color: #70c05b;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+h1:hover {
+  transition: 0.5s all ease;
+  border: #f9f4e2;
+  background-color: #ff6633;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+  max-width: 272px;
+  /* width: 100%; */
+  background-color: #fff;
+  /* padding: 10px; */
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+h4 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+h3 {
+  font-family: Rubikbold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+img {
+  background-color: none;
+  /* border: 1px solid blue; */
+  /* background-color: #fff; */
+}
+
+main {
+  background-color: #f9f4e2;
+  padding-top: 30px;
+}
+
+.main_card {
+  display: flex !important;
+}
